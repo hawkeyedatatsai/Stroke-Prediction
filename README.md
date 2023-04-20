@@ -1,4 +1,4 @@
-# machine-learning-project-temp-
+# machine-learning- Stroke Prediction
 regression or classification with following problems will be addressed using my machine learning skills
 
 1. Source of data
