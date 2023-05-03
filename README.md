@@ -3,8 +3,8 @@
 
 [image reference](https://insights.eisenhowerhealth.org/stroke-awareness-befast/)
 
-# machine-learning- Stroke Prediction
-A classification problem with following descriptions will be addressed with machine learning skills
+# Stroke Prediction using Machine Learning Models
+A classification dataset will be addressed with machine learning skills. 
 
 1. Questions to be answered to general public and stakeholders.
 
@@ -14,12 +14,12 @@ In a very imbalance data where only 5% of the people have stroke, there are two 
 
 - how to train the machine learning models and best identify the risk of stroke?
 
-2. Data source and description
+2. Results
 
-The original date reference can be found in [here](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset).
-On the stroke, our target, column, 1 stands for getting stroke and 0 for not getting stroke. Each rows provides relavant information, includig gender, age, smoking status and others, about the patient. Furthermore, data dictionary is listed below.
 
-![image](https://user-images.githubusercontent.com/126204698/236043392-b2cece0a-f62b-4fc3-af8a-a0ce7f47933b.png)
+
+
+
 
 
 3. Key Insights - Age
@@ -39,3 +39,9 @@ On the stroke, our target, column, 1 stands for getting stroke and 0 for not get
 
 - Models below suggest the best chance to predict stroke. Normalized TP (true positive) is listed as in reality we hope it to be over 70%.
 
+5. Data source and description
+
+The original date reference can be found in [here](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset).
+On the stroke, our target, column, 1 stands for getting stroke and 0 for not getting stroke. Each rows provides relavant information, includig gender, age, smoking status and others, about the patient. Furthermore, data dictionary is listed below.
+
+![image](https://user-images.githubusercontent.com/126204698/236043392-b2cece0a-f62b-4fc3-af8a-a0ce7f47933b.png)
