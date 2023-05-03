@@ -8,18 +8,15 @@ A classification dataset will be addressed with machine learning skills.
 
 1. Questions to be answered to general public and stakeholders.
 
-In a very imbalance data where only 5% of the people have stroke, there are two major questions to be answered
+- Which feature is most likely related with stroke?
 
-- which feature is most likely related with stroke?
+- In a very imbalance data where only 5% of the people have stroke, how to train the machine learning models and best identify the risk of stroke?
 
-- how to train the machine learning models and best identify the risk of stroke?
+2. Mahcine Results and Recommendations
 
-2. Results
+![image](https://user-images.githubusercontent.com/126204698/236060305-ada4b62e-f929-4abe-a6ae-a919359907f3.png)
 
-
-
-
-
+Among the models I used, oversampled logistic regression can predict over 70% of stroke. 
 
 
 3. Key Insights - Age
