@@ -1,29 +1,39 @@
+
+![image](https://user-images.githubusercontent.com/126204698/236042392-8184f68f-c2ad-4e97-b984-a6b83ccb56ae.png)
+
+[image reference](https://insights.eisenhowerhealth.org/stroke-awareness-befast/)
+
 # machine-learning- Stroke Prediction
-A classic classification problem with following descriptions will be addressed using my machine learning skills
+A classification problem with following descriptions will be addressed with machine learning skills
 
-1. Source of data
+1. Business problem and stakeholders
 
-Data set is from Kaggle, and the original reference can be found in [here](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
+In a very imbalance data where only 5% of the people have stroke, how to train the machine learning models and identify the risk of stroke?
 
-2. Brief description of data
+2. Data source and description
 
-According to the World Health Organization (WHO), stroke is the 2nd leading cause of death globally, responsible for approximately 11% of total deaths.
+The original date reference can be found in [here](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset).
+On the stroke, our target, column, 1 stands for getting stroke and 0 for not getting stroke. Each rows provides relavant information, includig gender, age, smoking status and others, about the patient. Furthermore, data dictionary is listed below.
 
-3. What is the target?
+![image](https://user-images.githubusercontent.com/126204698/236043392-b2cece0a-f62b-4fc3-af8a-a0ce7f47933b.png)
 
-I intend to predict whether a patient is likely to get stroke, 1 for getting stroke and 0 for not getting stroke,based on the features like gender, age, various diseases, and smoking status. 
 
-4. What does one row represent? (A person?  A business?  An event? A product?)
+3. Key Insights
 
-Each row in the data provides relavant information about the patient.
+![image](https://user-images.githubusercontent.com/126204698/236043513-aadadc10-c72f-4ced-97d2-ccf2c35d0909.png)
 
-5. Is this a classification or regression problem?
+- From scatterplots , it is shown that strokes occurs on older population especially after 50 years old.
 
-It is going to be a classification problem since we are predicting with 1 and 0  whilst 1 means if the patient had a stroke and 0 means if not.
 
-6. How many features and rows does the data have?
+![image](https://user-images.githubusercontent.com/126204698/236043575-9256e9b2-5427-4b2a-9298-c15c23675915.png)
 
-There are 11 featues and 5110 rows in this data. 
+- Bar chart above suggest most of the stroke patient are within the age group of 60 to 80 years old.
+
+4. Models
+
+- Since it is a classification question, models include SVC, Logistic Regression, Random Forest, KNN and XGBooster are used.
+
+
 
 7. What, if any, challenges do you foresee in cleaning, exploring, or modeling this dataset?
 
