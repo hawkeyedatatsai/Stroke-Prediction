@@ -6,9 +6,13 @@
 # machine-learning- Stroke Prediction
 A classification problem with following descriptions will be addressed with machine learning skills
 
-1. Business problem and stakeholders
+1. Questions to be answered to general public and stakeholders.
 
-In a very imbalance data where only 5% of the people have stroke, how to train the machine learning models and identify the risk of stroke?
+In a very imbalance data where only 5% of the people have stroke, there are two major questions to be answered
+
+- which feature is most likely related with stroke?
+
+- how to train the machine learning models and best identify the risk of stroke?
 
 2. Data source and description
 
@@ -18,7 +22,7 @@ On the stroke, our target, column, 1 stands for getting stroke and 0 for not get
 ![image](https://user-images.githubusercontent.com/126204698/236043392-b2cece0a-f62b-4fc3-af8a-a0ce7f47933b.png)
 
 
-3. Key Insights
+3. Key Insights - Age
 
 ![image](https://user-images.githubusercontent.com/126204698/236043513-aadadc10-c72f-4ced-97d2-ccf2c35d0909.png)
 
@@ -29,17 +33,9 @@ On the stroke, our target, column, 1 stands for getting stroke and 0 for not get
 
 - Bar chart above suggest most of the stroke patient are within the age group of 60 to 80 years old.
 
-4. Models
+4. Models - 
 
 - Since it is a classification question, models include SVC, Logistic Regression, Random Forest, KNN and XGBooster are used.
 
+- Models below suggest the best chance to predict stroke. Normalized TP (true positive) is listed as in reality we hope it to be over 70%.
 
-
-7. What, if any, challenges do you foresee in cleaning, exploring, or modeling this dataset?
-
-
-*   Cleaning: missing value
-
-*   Exploring: finding out correlations between people with stroke AND their health ststus.
-
-*   Modeling: will start with baseline, then add logreg, then end up with confusion matrix on oserving type 1 and type 2 errors.
