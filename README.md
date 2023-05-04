@@ -34,7 +34,7 @@ A binary classification dataset will be addressed with machine learning skills.
 
 - Model Selection: Since this is a classification question, models include SVC, Logistic Regression, Random Forest, KNN and XGBooster are used. The value of true positive (TP) is emphasized because ideally we want to precisely predict the stroke.
 
-- Resampling method makes impact as all four models with TP>.5 are resampled.
+- Resampling method makes impact as all models with TP >.5 are resampled.
 
 - SMOTE Logistic Regresion, tuned SMOTE Logistic Regresion and tuned oversampling Logistic Regresioncan can identify more than 70% of TP. These models are more likely to be used and applied in the real world.
 
