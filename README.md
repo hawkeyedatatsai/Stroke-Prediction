@@ -32,9 +32,9 @@ A binary classification dataset will be addressed with machine learning skills.
 
 - Among the models I applied, oversampled logistic regression can predict over 70% of stroke. My recommendation is to use this model to identify individuals who may require medication or other interventions to reduce their risk of having a stroke.
 
-- Model Selection: Since this is a classification question, models include SVC, Logistic Regression, Random Forest, KNN and XGBooster are used.
+- Model Selection: Since this is a classification question, models include SVC, Logistic Regression, Random Forest, KNN and XGBooster are used. The value of true positive (TP) is emphasized because ideally we want to precisely predict the stroke.
 
-- Resampling method makes impact as all four models has TP>.5 are resampled.
+- Resampling method makes impact as all four models with TP>.5 are resampled.
 
 - SMOTE Logistic Regresion, tuned SMOTE Logistic Regresion and tuned oversampling Logistic Regresioncan can identify more than 70% of TP. These models are more likely to be used and applied in the real world.
 
