@@ -6,9 +6,9 @@
 # Stroke Prediction using Machine Learning Models
 A binary classification dataset will be addressed with machine learning skills. 
 
-1. Questions to be answered to general public and pharmaceutical company pharstakeholders.
+1. Questions to be answered to general public and pharmaceutical company stakeholders.
 
-- Which feature is most likely related with stroke?
+- Which features are most likely related with stroke?
 
 - In a very imbalance data where only 5% of the people have stroke, how to train the machine learning models that best identify the risk of stroke and eventually apply to company decisions?
 
@@ -24,6 +24,7 @@ A binary classification dataset will be addressed with machine learning skills.
 
 - Bar chart here suggests most of the stroke patient are within the age group of 60 to 80 years old.
 
+- Other traits we studied from the dataset that could lead to stroke include : female, married, living at urban, working in private sector and never smoked.
 
 3. Machine Learning Results and Recommendations
 
@@ -33,6 +34,13 @@ A binary classification dataset will be addressed with machine learning skills.
 
 - Model Selection: Since this is a classification question, models include SVC, Logistic Regression, Random Forest, KNN and XGBooster are used.
 
+- Resampling method makes impact as all four models has TP>.5 are resampled.
+
+- SMOTE Logistic Regresion, tuned SMOTE Logistic Regresion and tuned oversampling Logistic Regresioncan can identify more than 70% of TP. These models are more likely to be used and applied in the real world.
+
+- Model tuning does not make much impact as tuned models have same or lower TP.
+
+- Featured engineering strategy is applied by creating one extra column 'high_glucose'. It has the similiar chance to identify stroke as original data.
 
 4. Data source and description
 
