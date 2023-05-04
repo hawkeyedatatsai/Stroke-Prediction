@@ -4,7 +4,7 @@
 [image reference](https://insights.eisenhowerhealth.org/stroke-awareness-befast/)
 
 # Stroke Prediction using Machine Learning Models
-A classification dataset will be addressed with machine learning skills. 
+A binary classification dataset will be addressed with machine learning skills. 
 
 1. Questions to be answered to general public and pharmaceutical company pharstakeholders.
 
