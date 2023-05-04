@@ -27,7 +27,8 @@ A classification dataset will be addressed with machine learning skills.
 
 3. Mahcine Learning Results and Recommendations
 
-![image](https://user-images.githubusercontent.com/126204698/236060305-ada4b62e-f929-4abe-a6ae-a919359907f3.png)
+![image](https://user-images.githubusercontent.com/126204698/236104979-1cf31caf-67ac-4cb4-ab12-4042297f4444.png)
+
 
 - Among the models I applied, oversampled logistic regression can predict over 70% of stroke. 
 
