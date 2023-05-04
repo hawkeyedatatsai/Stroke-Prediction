@@ -6,11 +6,11 @@
 # Stroke Prediction using Machine Learning Models
 A classification dataset will be addressed with machine learning skills. 
 
-1. Questions to be answered to general public and stakeholders.
+1. Questions to be answered to general public and pharmaceutical company pharstakeholders.
 
 - Which feature is most likely related with stroke?
 
-- In a very imbalance data where only 5% of the people have stroke, how to train the machine learning models that best identify the risk of stroke?
+- In a very imbalance data where only 5% of the people have stroke, how to train the machine learning models that best identify the risk of stroke and eventually apply to company decisions?
 
 2. Key Insights - Age
 
@@ -25,13 +25,11 @@ A classification dataset will be addressed with machine learning skills.
 - Bar chart here suggests most of the stroke patient are within the age group of 60 to 80 years old.
 
 
-3. Mahcine Learning Results and Recommendations
+3. Machine Learning Results and Recommendations
 
 ![image](https://user-images.githubusercontent.com/126204698/236104979-1cf31caf-67ac-4cb4-ab12-4042297f4444.png)
 
-
-- Among the models I applied, oversampled logistic regression can predict over 70% of stroke. 
-
+- Among the models I applied, oversampled logistic regression can predict over 70% of stroke. My recommendation is to use this model to identify individuals who may require medication or other interventions to reduce their risk of having a stroke.
 
 - Model Selection: Since this is a classification question, models include SVC, Logistic Regression, Random Forest, KNN and XGBooster are used.
 
