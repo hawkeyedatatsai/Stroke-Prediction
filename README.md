@@ -3,19 +3,16 @@
 
 [image reference](https://insights.eisenhowerhealth.org/stroke-awareness-befast/)
 
-# Stroke Prediction using Machine Learning Models
-A binary classification dataset will be addressed with machine learning skills. 
+# Project Description and Objective
+A binary classification dataset on predicting stroke is addressed with machine learning skills. 
 
-1. Questions to be answered to general public and pharmaceutical company stakeholders.
+# Data Source and Description
+The original date can be found [Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset). On the stroke, our target, column, 1 stands for getting stroke and 0 for not getting stroke. Each rows provides relavant information, including gender, age, smoking status and others, about the patients. Furthermore, data dictionary is listed below.
 
-- Which features are most likely related with stroke?
+![image](https://user-images.githubusercontent.com/126204698/236043392-b2cece0a-f62b-4fc3-af8a-a0ce7f47933b.png)
 
-- In a very imbalance data where only 5% of the people have stroke, how to train the machine learning models that best identify the risk of stroke and eventually apply to company decisions?
+# Analytical Insights from Data Analysis
 
-2. Key Insights - Age
-
-- For general public who are 50 year or older, it is suggested to actively check the [symptom of stroke](https://www.cdc.gov/stroke/signs_symptoms.htm). Refer to visulizations below for more.
- 
 ![image](https://user-images.githubusercontent.com/126204698/236043513-aadadc10-c72f-4ced-97d2-ccf2c35d0909.png)
 
 - From scatterplots , it is shown that strokes occurs on older population especially after 50 years old.
@@ -24,9 +21,7 @@ A binary classification dataset will be addressed with machine learning skills.
 
 - Bar chart here suggests most of the stroke patient are within the age group of 60 to 80 years old.
 
-- Other traits we studied from the dataset that could lead to stroke include : female, married, living at urban, working in private sector and never smoked. However, it does not suggest that a 25 yr old single male who smokes two packs of cigarette a day will not get stroke. In fact, these traits is describing the stroke at a broader sense. For instance, we observe there are more female than male that had stroke, and it could be related to pregancy or longer life. Working in a private sector at downtown big cities would probably generate more stress and imbalance work and sleep time, which ultimately cause bad health then the risk of stroke. Not to mention, CDC has asserted that [secondhand smoke increases the risk for stroke by 20−30%.](https://www.cdc.gov/tobacco/campaign/tips/diseases/heart-disease-stroke.html#:~:text=Secondhand%20smoke%20increases%20the%20risk%20for%20stroke%20by,increase%20your%20risk%20of%20having%20a%20heart%20attack.)
-
-3. Machine Learning Results and Recommendations
+# Machine Learning Models Approach and Results
 
 ![image](https://user-images.githubusercontent.com/126204698/236104979-1cf31caf-67ac-4cb4-ab12-4042297f4444.png)
 
@@ -42,9 +37,30 @@ A binary classification dataset will be addressed with machine learning skills.
 
 - Featured engineering strategy is applied by creating one extra column 'high_glucose'. It has the similiar chance to identify stroke as original data.
 
-4. Data source and description
+# Stroke Prediction using Machine Learning Models
 
-The original date can be found [here](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset).
-On the stroke, our target, column, 1 stands for getting stroke and 0 for not getting stroke. Each rows provides relavant information, includig gender, age, smoking status and others, about the patient. Furthermore, data dictionary is listed below.
+1. Questions to be answered to general public and pharmaceutical company stakeholders.
 
-![image](https://user-images.githubusercontent.com/126204698/236043392-b2cece0a-f62b-4fc3-af8a-a0ce7f47933b.png)
+- Which features are most likely related with stroke?
+
+- In a very imbalance data where only 5% of the people have stroke, how to train the machine learning models that best identify the risk of stroke and eventually apply to company decisions?
+
+2. Key Insights - Age
+
+- For general public who are 50 year or older, it is suggested to actively check the [symptom of stroke](https://www.cdc.gov/stroke/signs_symptoms.htm). Refer to visulizations below for more.
+ 
+
+
+- Other traits we studied from the dataset that could lead to stroke include : female, married, living at urban, working in private sector and never smoked. However, it does not suggest that a 25 yr old single male who smokes two packs of cigarette a day will not get stroke. In fact, these traits is describing the stroke at a broader sense. For instance, we observe there are more female than male that had stroke, and it could be related to pregancy or longer life. Working in a private sector at downtown big cities would probably generate more stress and imbalance work and sleep time, which ultimately cause bad health then the risk of stroke. Not to mention, CDC has asserted that [secondhand smoke increases the risk for stroke by 20−30%.](https://www.cdc.gov/tobacco/campaign/tips/diseases/heart-disease-stroke.html#:~:text=Secondhand%20smoke%20increases%20the%20risk%20for%20stroke%20by,increase%20your%20risk%20of%20having%20a%20heart%20attack.)
+
+3. Machine Learning Results and Recommendations
+
+
+
+4. 
+
+
+
+# Contact Info
+
+Please direct all communications to hawkeyedatatsai@gmail.com
