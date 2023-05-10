@@ -31,7 +31,7 @@ The original date can be found [Kaggle](https://www.kaggle.com/datasets/fedesori
 
 - Model Selection: Since this is a classification question, models include SVC, Logistic Regression, Random Forest, KNN and XGBooster are used. The value of true positive (TP) is emphasized because ideally we want to precisely predict the stroke.
 
-- Among the models I applied, ***oversampled logistic regression*** can predict over 70% of stroke. My recommendation is to use this model to identify individuals who may require medication or other interventions to reduce their risk of having a stroke.
+- Among the models applied, ***oversampled logistic regression*** can predict over 70% of stroke. My recommendation is to use this model to identify individuals who may require medication or other interventions to reduce their risk of having a stroke.
 
 - Resampling method makes impact as all models with TP >.5 are resampled.
 
@@ -40,6 +40,11 @@ The original date can be found [Kaggle](https://www.kaggle.com/datasets/fedesori
 - Model tuning does not make much impact as tuned models have same or lower TP as models before tuning.
 
 - Featured engineering strategy is applied by creating one extra column 'high_glucose'. It has the similiar chance to identify stroke as original data.
+
+- From the graph below, I decide to select PCA with number of components=7 and apply it in the models, which means I can only use 70% (7/10) of features and expect 90% variance. However, it appears that PCA models perform worse on finding TP (< 2.5%) than other models .
+
+![image](https://github.com/hawkeyedatatsai/Stroke-Prediction/assets/126204698/13ccab07-fcd9-4bc0-96ea-06720f216b88)
+
 
 # Summary and Recommendation 
 
@@ -53,9 +58,9 @@ The original date can be found [Kaggle](https://www.kaggle.com/datasets/fedesori
 
 - For general public who are 50 year or older, it is suggested to actively check the [symptom of stroke](https://www.cdc.gov/stroke/signs_symptoms.htm) to raise the awareness of it. Meanwhile, other traits we studied from the dataset that could lead to stroke include : female, married, living at urban, working in private sector and never smoked. However, it does not suggest that a 25 yr old single male who smokes two packs of cigarette a day will not get stroke. In fact, these traits is describing the stroke at a broader sense. For instance, we observe there are more female than male that had stroke, and it could be related to pregancy or longer life. Working in a private sector at downtown big cities would probably generate more stress and imbalance work and sleep time, which ultimately cause bad health then the risk of stroke. Not to mention, CDC has asserted that [secondhand smoke increases the risk for stroke by 20−30%.](https://www.cdc.gov/tobacco/campaign/tips/diseases/heart-disease-stroke.html#:~:text=Secondhand%20smoke%20increases%20the%20risk%20for%20stroke%20by,increase%20your%20risk%20of%20having%20a%20heart%20attack.)
 
-
+- On dealing imbalance data, oversampling methods increase on chance of finding TP significantly, the models without oversampling can only find 2.5% TP the most whilst most the oversampled models can find more than 50%!
 
 
 # Contact Info
 
-Please direct all communications to hawkeyedatatsai@gmail.com
+Please direct all communications to Henry Tsai @ hawkeyedatatsai@gmail.com
