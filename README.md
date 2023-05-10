@@ -41,7 +41,7 @@ The original date can be found [Kaggle](https://www.kaggle.com/datasets/fedesori
 
 - Featured engineering strategy is applied by creating one extra column 'high_glucose'. It has the similiar chance to identify stroke as original data.
 
-- From the graph below, I decide to select PCA with number of components=7 and apply it in the models, which means I can only use 70% (7/10) of features and expect 90% variance. However, it appears that PCA models perform worse on finding TP (< 2.5%) than other models .
+- From the graph below, I decide to select PCA with number of components=7 and apply it in the models, which means I can only use 70% (7/10) of features and expect 90% variance. However, PCA models perform worse on finding TP (< 2.5%) than other models .
 
 ![image](https://github.com/hawkeyedatatsai/Stroke-Prediction/assets/126204698/13ccab07-fcd9-4bc0-96ea-06720f216b88)
 
