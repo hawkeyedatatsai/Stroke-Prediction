@@ -3,7 +3,7 @@
 
 [image reference](https://insights.eisenhowerhealth.org/stroke-awareness-befast/)
 
-# Project Description and Objective
+# Project Objective
 A binary classification dataset on predicting stroke is addressed with machine learning models. 
 
 # Data Source and Description
