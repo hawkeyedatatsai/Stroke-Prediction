@@ -60,6 +60,9 @@ The original date can be found [Kaggle](https://www.kaggle.com/datasets/fedesori
 
 - On dealing imbalance data, oversampling methods increase on chance of finding TP significantly, the models without oversampling can only find 2.5% TP the most whilst most the oversampled models can find more than 50%!
 
+# Next Steps
+
+The object is to use the best machine learning model and come back to study the correct predictions, and find out more precious characters of stroke from patients.
 
 # Contact Info
 
