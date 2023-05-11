@@ -17,13 +17,12 @@ The original date can be found [Kaggle](https://www.kaggle.com/datasets/fedesori
 
 - From scatterplots , it is shown that strokes occurs on older population especially after 50 years old.
 
-![image](https://user-images.githubusercontent.com/126204698/236043575-9256e9b2-5427-4b2a-9298-c15c23675915.png)
+![image](https://github.com/hawkeyedatatsai/Stroke-Prediction/assets/126204698/5f112e12-6dfb-45db-94ff-c37b01b2fbad)
 
 - Bar chart here suggests most of the stroke patient are within the age group of 60 to 80 years old.
-
 ![image](https://github.com/hawkeyedatatsai/Stroke-Prediction/assets/126204698/40c7f7c5-3ebb-418d-a16b-f8e576963ece)
 
-- The youngest and oldest of stroke patient is shown on the line chart above. Also noted that a huge amount of patients are over 70 years old.
+- More specifically, according to the data analyzed the age group, the highest occurrence of strokes is 78 years old. Meanwhile, the youngest occurrence of strokes is shown.
 
 # Machine Learning Models Approach and Results
 
