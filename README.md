@@ -65,7 +65,7 @@ The original date can be found [Kaggle](https://www.kaggle.com/datasets/fedesori
 
 # Next Steps
 
-The object is to use the best machine learning model and come back to study the correct predictions, and find out more precious characters of stroke from patients.
+The object is to use the best machine learning model and come back to study the correct predictions, and find out more precious characters on stroke patients.
 
 # Contact Info
 
