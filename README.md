@@ -13,6 +13,10 @@ The original date can be found [Kaggle](https://www.kaggle.com/datasets/fedesori
 
 # Analytical Insights from Data Analysis
 
+![image](https://github.com/hawkeyedatatsai/Stroke-Prediction/assets/126204698/ec1a5ba4-0036-44ab-b015-fa3d6df3da0b)
+
+- It appears that age has the highest correlation with stroke.
+
 ![image](https://user-images.githubusercontent.com/126204698/236043513-aadadc10-c72f-4ced-97d2-ccf2c35d0909.png)
 
 - From scatterplots , it is shown that strokes occurs on older population especially after 50 years old.
