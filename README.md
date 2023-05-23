@@ -1,7 +1,6 @@
 
 ![image](https://user-images.githubusercontent.com/126204698/236042392-8184f68f-c2ad-4e97-b984-a6b83ccb56ae.png)
-
-                                                     [image reference](https://insights.eisenhowerhealth.org/stroke-awareness-befast/)
+[image reference](https://insights.eisenhowerhealth.org/stroke-awareness-befast/)
 
 # Project Objective
 We use machine learning models to predict stroke from a binary classification dataset. Recorded presentation video of this project can be found [here](https://drive.google.com/file/d/1rnhKOPI3mmTAHXiGAN1TkKh7JSPiMnpe/view?usp=sharing).
