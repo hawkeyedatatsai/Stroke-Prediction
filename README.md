@@ -3,10 +3,10 @@
 
 [image reference](https://insights.eisenhowerhealth.org/stroke-awareness-befast/)
 
-* Recorded presentation video of this project can be found [here]([****](https://drive.google.com/file/d/1rnhKOPI3mmTAHXiGAN1TkKh7JSPiMnpe/view?usp=sharing))
+* 
 
 # Project Objective
-We use machine learning models to predict stroke from a binary classification dataset. 
+We use machine learning models to predict stroke from a binary classification dataset. Recorded presentation video of this project can be found [here](https://drive.google.com/file/d/1rnhKOPI3mmTAHXiGAN1TkKh7JSPiMnpe/view?usp=sharing).
 
 # Data Source and Description
 The original date can be found [Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset). On the stroke, our target, column, 1 stands for getting stroke and 0 for not getting stroke. Each rows provides relavant information, including gender, age, smoking status and others, about the patients. Furthermore, data dictionary is listed below.
